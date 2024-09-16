@@ -1,0 +1,76 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Черный фон */
+    color: #fff;            /* Белый текст */
+}
+
+/* Стили для шапки */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FFD700; /* Желтый фон */
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Стили для секций */
+section {
+    padding: 50px;
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about, #skills, #projects, #contact {
+    background-color: #111; /* Темный фон */
+}
+
+/* Стили для списка навыков */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Стили для контактной информации */
+#contact p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #FFD700; /* Желтый цвет для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
